@@ -1,0 +1,36 @@
+html, body{
+  height: 90%;
+  width: 90%;
+}
+body{
+  background-image: url("images/Background.jpg");
+  
+}
+.title{
+  color: white;
+  margin-left: 20%;
+}
+#straw{
+  float: left;
+  margin: 0 15px 0 0;
+  text-align: center;
+}
+.donate{
+  background-color: rgb(43, 41, 148);
+    color: white;
+    border: none;
+    height: 60px;
+    width: 90px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 25%;
+    transition: box-shadow 0.15s;
+}
+.donate:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+}
+.infor{
+  font-size: 150%;
+}
